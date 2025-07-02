@@ -18,7 +18,7 @@
 - <b>Python</b>
   - STAR WARS Game
 - <b>Certifications</b>
-  - Google IT Support Professional
+  - Google IT Support Professional https://www.coursera.org/account/accomplishments/specialization/YFTNPLDHM4C6
 <h2>📺 Popular YouTube Videos</h2>
 
 - [Tutorail Home Video] (https://www.youtube.com/@shahutcherson2992)
