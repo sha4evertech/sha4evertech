@@ -4,7 +4,7 @@
 
 - <b>My website</b>
   - 
-- <b>Full Stack Web App (HTML, CSS, and JavaScript</b>
+- <b>Full Stack Web (HTML, CSS, and JavaScript</b>
   -  <b><i></b></i>
 - <b>Linux</b>
   - 
@@ -18,7 +18,8 @@
 - <b>Python</b>
   - STAR WARS Game
 - <b>Certifications</b>
-  - Google IT Support Professional https://www.coursera.org/account/accomplishments/specialization/YFTNPLDHM4C6
+  - Google IT Support Professional
+   [<a href="[https://www.coursera.org/account/accomplishments/specialization/YFTNPLDHM4C6"https://www.coursera.org/account/accomplishments/specialization/YFTNPLDHM4C6](https://www.coursera.org/account/accomplishments/specialization/YFTNPLDHM4C6)](https://www.coursera.org/account/accomplishments/specialization/YFTNPLDHM4C6)
 <h2>📺 Popular YouTube Videos</h2>
 
 - [Tutorail Home Video] (https://www.youtube.com/@shahutcherson2992)
