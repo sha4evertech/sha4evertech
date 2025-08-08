@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sha Hutcherson - Professional Portfolio</title>
+    <!-- Use Tailwind CSS CDN for a modern, responsive design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+              },
+            }
+          }
+        }
+      </script>
+    <style>
+        /* Custom scroll behavior for smooth navigation */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Custom styles for professional feel */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* Dark charcoal background */
+            color: #c9d1d9; /* Light grey text */
+        }
+        .text-gradient {
+            background-image: linear-gradient(45deg, #1e90ff, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
+        .card {
+            backdrop-filter: blur(10px);
+            background-color: rgba(30, 41, 59, 0.5); /* Semi-transparent dark blue */
+            border: 1px solid rgba(59, 73, 93, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Sticky Navigation Header -->
+    <header class="sticky top-0 z-50 bg-[#0d1117] bg-opacity-90 backdrop-blur-sm shadow-lg">
+        <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gradient">PORTFOLIO</div>
+            <ul class="flex space-x-6 font-medium">
+                <li><a href="#home" class="hover:text-blue-400 transition duration-300">Home</a></li>
+                <li><a href="#about" class="hover:text-blue-400 transition duration-300">About</a></li>
+                <li><a href="#skills" class="hover:text-blue-400 transition duration-300">Skills</a></li>
+                <li><a href="#projects" class="hover:text-blue-400 transition duration-300">Projects</a></li>
+                <li><a href="#contact" class="hover:text-blue-400 transition duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+
+        <!-- Home Section -->
+        <section id="home" class="min-h-screen flex flex-col items-center justify-center text-center">
+            <div class="flex flex-col md:flex-row items-center md:space-x-8 max-w-4xl">
+                <img src="/images/Sha.png" alt="Sha Hutcherson" class="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-blue-500 shadow-2xl mb-6 md:mb-0 object-cover">
+                <div class="text-left">
+                    <p class="text-xl font-light text-gray-400 mb-2">Hello, I'm</p>
+                    <h1 class="text-5xl md:text-6xl font-extrabold leading-tight text-gradient mb-4">Sha Hutcherson</h1>
+                    <p class="text-2xl text-white font-medium mb-4">A dedicated web developer with 5 years of experience.</p>
+                    <p class="text-lg text-gray-300 max-w-2xl">My journey in web development started with a curiosity for how things work on the internet, which quickly evolved into a passion for building them. I specialize in front-end development, bringing designs to life with clean, efficient, and maintainable code.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gradient">About Me</h2>
+            <div class="max-w-4xl mx-auto text-lg text-gray-300 space-y-6">
+                <p>Nice to meet you! My name is Sha Hutcherson. I am a front-end developer with a strong passion for creating dynamic and responsive user experiences. I have a proven track record of solving complex problems and am always eager to learn new technologies and best practices to deliver high-quality solutions.</p>
+                <p>When I'm not coding, you can find me enjoying a combination of physical activity and digital entertainment with basketball, gym workouts, and video games. This balance helps me stay sharp, creative, and focused.</p>
+                <p>I am confident in my ability to contribute to any project and am always looking for new challenges to grow my skills.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gradient">My Skills</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Skill Card: HTML & CSS -->
+                <div class="card p-6 rounded-xl shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-2">HTML & CSS</h3>
+                    <p class="text-gray-400">Building and styling web pages with modern standards.</p>
+                </div>
+                <!-- Skill Card: JavaScript -->
+                <div class="card p-6 rounded-xl shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-2">JavaScript</h3>
+                    <p class="text-gray-400">Creating interactive and dynamic web applications.</p>
+                </div>
+                <!-- Skill Card: Python -->
+                <div class="card p-6 rounded-xl shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-2">Python</h3>
+                    <p class="text-gray-400">Backend development and scripting.</p>
+                </div>
+                <!-- Skill Card: Java -->
+                <div class="card p-6 rounded-xl shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-2">Java</h3>
+                    <p class="text-gray-400">Object-oriented programming and application development.</p>
+                </div>
+                <!-- Skill Card: Linux -->
+                <div class="card p-6 rounded-xl shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-2">Linux</h3>
+                    <p class="text-gray-400">System administration and command-line proficiency.</p>
+                </div>
+                <!-- Skill Card: Experience -->
+                <div class="card p-6 rounded-xl shadow-lg text-center">
+                    <h3 class="text-2xl font-semibold mb-2">Experience</h3>
+                    <p class="text-gray-400">Over 2 years of experience and 25+ projects.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gradient">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1: RUCKER's website -->
+                <div class="card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://placehold.co/600x400/1e90ff/ffffff?text=Project+1" alt="RUCKER's website" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">RUCKER's Website</h3>
+                        <p class="text-gray-400 text-sm mb-4">A web application for a restaurant, featuring online reservations, a menu, and contact information.</p>
+                        <a href="/project1.html" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300">View Project 1</a>
+
+                    </div>
+                </div>
+                <!-- Project Card 2: Desserts Menu -->
+                <div class="card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://placehold.co/600x400/1e90ff/ffffff?text=Project+2" alt="Desserts" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">The Desserts</h3>
+                        <p class="text-gray-400 text-sm mb-4">An interactive menu page showcasing various dessert options, including shortcakes and more.</p>
+                        <a href="/project2.html" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300">View Project 2</a>
+
+                    </div>
+                </div>
+                <!-- Project Card 3: Beverages Menu -->
+                <div class="card rounded-xl overflow-hidden shadow-lg">
+                    <img src="https://placehold.co/600x400/1e90ff/ffffff?text=Project+3" alt="Beverages" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-2xl font-bold mb-2">Beverages Menu</h3>
+                        <p class="text-gray-400 text-sm mb-4">A detailed page for beverage selections, including various types of wines and their pricing.</p>
+                        <a href="/project3.html" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full transition duration-300">View Project 3</a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gradient">Get in Touch</h2>
+            <div class="max-w-xl mx-auto bg-[#1e293b] p-8 rounded-xl shadow-xl">
+                <form action="#" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-300">Name</label>
+                        <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md bg-[#0d1117] border-gray-600 text-white focus:border-blue-500 focus:ring-blue-500" placeholder="Your Name">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+                        <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md bg-[#0d1117] border-gray-600 text-white focus:border-blue-500 focus:ring-blue-500" placeholder="your.email@example.com">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-300">Message</label>
+                        <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md bg-[#0d1117] border-gray-600 text-white focus:border-blue-500 focus:ring-blue-500" placeholder="Your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg transition duration-300">Send Message</button>
+                </form>
+                <div class="text-center mt-6 text-gray-400">
+                    <p>You can also reach me directly at:</p>
+                    <p class="text-xl font-bold text-white mt-2">shahutcherson3@gmail.com</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 border-t border-gray-700 mt-12">
+        <p class="author text-gray-400">Author: Sha Hutcherson</p>
+        <p class="copyright text-gray-400">&copy; 2025 copyright reserved</p>
+    </footer>
+
+</body>
+</html>
+
